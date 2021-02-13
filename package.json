@@ -2,6 +2,7 @@
   "name": "panier-achats",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://HassanChehouri.github.io/ex1-signets/",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
@@ -19,8 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "preghdeploy": "npm run build",
-    "ghdeploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,5 +42,6 @@
     ]
   },
   "homepage-aide": "Avant de déployer sur GitHub Pages vous devez configurer correctement la propriété homepage ci-dessus : 1) retirer le suffixe '-inactif' de l'étiquette, et 2) remplacer le nom de compte et le nom de dépôt GitHub par les vôtres dans la valeur de la propriété.",
-  "homepage-inactif": "https://cdem.github.io/panier-achats-pvt-gr2/"
+  "homepage-inactif": "https://HassanChehouri.github.io/ex1-signets/"
 }
+
