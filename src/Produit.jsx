@@ -6,10 +6,9 @@ export default function Produit(props) {
     <li className="Produit">
       <img src={'images-produits/' + props.id + '.webp'} alt=""/>
       <div className="info">
-        <p className="nom">{props.nom}</p>
-        <p className="prix">{props.prix}</p>
+        <p className="cours">{props.titre}</p>
+        <p className="modification">{props.modification}</p>
       </div>
-      <BtnAjoutPanier />
     </li>
   );
 }

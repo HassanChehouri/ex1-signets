@@ -1,7 +1,7 @@
 .Entete {
   position: sticky;
   top: 0;
-  height: 60px;
+  height: 45px;
   margin: 0px;
   padding: 20px;
   color: #fff;
@@ -21,8 +21,7 @@
     }
   
     li:not(:last-of-type) {
-      padding-right: 15px;
-      border-right: 1px solid white;
+    padding-right: 15px;
     }
   
     li:not(:first-of-type) {

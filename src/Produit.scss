@@ -1,6 +1,6 @@
 .Produit {
   width: 250px;
-  height: 480px;
+  height: 300px;
   margin: 10px;
   padding: 5px;
   background-color: #444;
@@ -11,13 +11,14 @@
 
   img {
     width: 100%;
+    height: 60%;
   }
 
   .info {
     text-align: center;
     font-size: 0.75em;
     line-height: 1.2em;
-    .nom {
+    .cours {
       margin: 10px;
       height: 30px;
       font-weight: 500;

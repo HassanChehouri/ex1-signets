@@ -1,23 +1,18 @@
 import './Entete.scss';
-import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
-import Badge from '@material-ui/core/Badge';
+
 
 function Entete(props) {
   return (
     <header className="Entete">
-      <div className="logo">Magasin</div>
-      <ul className="navPrincipale">
-        <li>Produits</li>
-        <li>À propos de nous</li>
-        <li>Contactez-nous</li>
-      </ul>
+      <div className="logo">Signets</div>
       <ul className="navUtilisateur">
+        
+        <li>Hassan Chehouri</li>
         <li>
-          <Badge badgeContent={2} color="secondary">
-            <ShoppingCartIcon />
-          </Badge>
+          
+           
+          
         </li>
-        <li>Mon compte</li>
       </ul>
     </header>
   )
